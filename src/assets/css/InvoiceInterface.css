@@ -1,0 +1,17 @@
+.invoice-item.parts {
+    display: flex;
+    flex-direction: column;
+}
+
+.unit-price {
+    display: flex;
+    flex-direction: row;
+}
+
+.unit-price h4 {
+    flex: 1;
+}
+
+.unit-price input {
+    margin-left: 30px;
+}
