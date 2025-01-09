@@ -1,6 +1,6 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "accounting-app",
+  "productName": "Accounting App",
   "version": "0.1.0",
   "identifier": "com.accounting-app.app",
   "build": {
@@ -12,9 +12,11 @@
   "app": {
     "windows": [
       {
-        "title": "accounting-app",
-        "width": 800,
-        "height": 600
+        "label": "main",
+        "title": "Accounting",
+        "width": 1280,
+        "height": 840,
+        "resizable": false
       }
     ],
     "security": {
