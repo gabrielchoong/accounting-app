@@ -10,10 +10,6 @@
     display: flex;
 }
 
-.invoice-item.date {
-    flex-direction: row;
-}
-
 .invoice-item.customer {
     flex-direction: column;
 }

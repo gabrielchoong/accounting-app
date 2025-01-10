@@ -2,12 +2,17 @@ import "../assets/css/Invoice.css"
 import CustomerInterface from "../components/CustomerInterface.tsx";
 import InvoiceInterface from "../components/InvoiceInterface.tsx";
 
-function App() {
+function Invoice() {
 
     return (
         <main className={"container"}>
             <div className={"title"}>
                 <h2>Invoice</h2>
+            </div>
+
+            <div className={"invoice-item date"}>
+                <h3>Date</h3>
+                <input type="date"></input>
             </div>
 
             <div className={"content"}>
@@ -23,4 +28,4 @@ function App() {
     );
 }
 
-export default App;
+export default Invoice;
