@@ -98,14 +98,8 @@ button {
   }
 }
 
-.page-left .page-right {
-  padding: 10px;
-  text-align: left;
-  margin: 10px;
-}
-
 .page-left {
-  flex: 1;
+  flex: 1.1;
 }
 
 .page-right {
