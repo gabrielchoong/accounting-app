@@ -35,6 +35,7 @@ impl InvoiceItem {
     }
 }
 
+// The struct below should never be called explicitly
 #[derive(Debug, Deserialize, Serialize)]
 pub struct InvoiceItems(pub Vec<InvoiceItem>);
 

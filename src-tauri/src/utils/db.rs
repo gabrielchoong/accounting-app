@@ -4,6 +4,10 @@ use crate::core_structs::invoice_item::InvoiceItems;
 use crate::core_structs::car::Car;
 use rusqlite::{params, Connection, Result};
 
+// This file contains helper functions for database operations.
+// It should not be called directly. Instead, use a wrapper function
+// to encapsulate these helpers.
+
 const DB_PATH: &str = "src/data/invoice.db";
 
 pub fn init_database(db_path: &str) -> Result<Connection> {
